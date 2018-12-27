@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fg_et_text">Text</string>
+    <string name="fg1_et_date">mm/dd/yyyy</string>
+    <string name="fg1_et_alarm">Alarm</string>
+    <string name="fg1_bt_select">Select</string>
+</resources>

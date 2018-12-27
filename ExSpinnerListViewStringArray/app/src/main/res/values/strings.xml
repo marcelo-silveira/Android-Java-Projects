@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ExSpinnerListViewStringArray</string>
+
+
+    <!-- Recursos -->
+    <string-array name="ma_sp_contatos">
+        <item>Selecione</item>
+        <item>Nando</item>
+        <item>Moura</item>
+        <item>Neto</item>
+        <item>Felipe</item>
+        <item>Paulo Cesar</item>
+    </string-array>
+</resources>

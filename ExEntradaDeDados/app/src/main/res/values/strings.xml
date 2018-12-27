@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExEntradaDeDados</string>
+
+    <!-- Main Activity -->
+    <string name="ma_et_nome">Digite o seu nome</string>
+    <string name="ma_et_idade">Idade</string>
+    <string name="ma_et_peso">Peso</string>
+    <string name="ma_bt_ok">Ok</string>
+</resources>

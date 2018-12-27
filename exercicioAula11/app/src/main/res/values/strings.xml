@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">exercicioAula11</string>
+
+
+    <string-array name="ma_sp_estado">
+        <item>Selecione</item>
+        <item>Casado</item>
+        <item>Solteiro</item>
+        <item>Separado</item>
+        <item>Divorciado</item>
+        <item>Viúvo</item>
+    </string-array>
+</resources>

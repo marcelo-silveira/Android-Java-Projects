@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExAula5Manha</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello">Hello</string>
+
+    <string name="alert_title">title alert :-)</string>
+    <string name="alert_messange">hello I\'m alert</string>
+    <string name="alert_neutral_button">OK</string>
+</resources>

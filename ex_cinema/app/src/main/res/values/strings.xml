@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ex_cinema</string>
+    <string name="ma_et_movie">Type a name movie</string>
+    <string name="ma_rg_mgender">Movie genders</string>
+    <string name="ma_rb_horror">Horror</string>
+    <string name="ma_rb_action">Action</string>
+    <string name="ma_rb_thriller">Thriller</string>
+    <string name="ma_rb_comedy">Comedy</string>
+    <string name="ma_rb_romance">Romance</string>
+
+    <string name="ma_bt_add">Add evaluation</string>
+    <string name="ma_tv_mtype">Movie Type</string>
+    <string name="ma_tv_prefs">Prefs</string>
+
+</resources>

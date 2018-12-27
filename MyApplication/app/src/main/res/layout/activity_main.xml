@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/images">
+
+    <Button
+        android:id="@+id/bt_Mario"
+        android:layout_width="120dp"
+        android:layout_height="137dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/mario"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <Button
+        android:id="@+id/bt_Luigi"
+        android:layout_width="120dp"
+        android:layout_height="136dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/luigi"
+        app:layout_constraintStart_toEndOf="@+id/bt_Mario"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/bt_Bowser"
+        android:layout_width="121dp"
+        android:layout_height="146dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/bowser"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Wario"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/bT_Yoshi"
+        android:layout_width="123dp"
+        android:layout_height="146dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/yoshi"
+        app:layout_constraintStart_toEndOf="@+id/bt_Bowser"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Toad" />
+
+    <Button
+        android:id="@+id/bt_DK"
+        android:layout_width="120dp"
+        android:layout_height="144dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/dk"
+        app:layout_constraintStart_toEndOf="@+id/bt_Toad"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Peach" />
+
+    <Button
+        android:id="@+id/bt_Wario"
+        android:layout_width="120dp"
+        android:layout_height="147dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/wario"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Mario"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <Button
+        android:id="@+id/bt_Toad"
+        android:layout_width="120dp"
+        android:layout_height="145dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/toad"
+        app:layout_constraintStart_toEndOf="@+id/bt_Wario"
+        app:layout_constraintTop_toBottomOf="@+id/bt_Luigi" />
+
+    <Button
+        android:id="@+id/bt_Peach"
+        android:layout_width="119dp"
+        android:layout_height="137dp"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/peach"
+        app:layout_constraintStart_toEndOf="@+id/bt_Luigi"
+        tools:layout_editor_absoluteY="0dp" />
+
+</android.support.constraint.ConstraintLayout>
